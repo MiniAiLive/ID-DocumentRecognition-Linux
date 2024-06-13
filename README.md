@@ -1,5 +1,5 @@
 <div align="center">
-   <h1> MiniAiLive ID Document Recognition Windows SDK </h1>
+   <h1> MiniAiLive ID Document Recognition Linux SDK </h1>
    <img src=https://miniai.live/wp-content/uploads/2024/02/logo_name-1-768x426-1.png alt="MiniAiLive Logo"
    width="300">
 </div>
@@ -7,7 +7,7 @@
 ## Welcome to the [MiniAiLive](https://www.miniai.live/)!
 Welcome to the ID Document Recognition SDK! This SDK provides powerful tools for recognizing and extracting information from ID documents. The SDK is available for both Windows and Linux platforms and includes an API for integration.
 
-Introducing our ID Document Recognition Windows SDK. Reduce drop-off and boost conversions with ID scanning and verification solutions. 
+Introducing our ID Document Recognition Linux SDK. Reduce drop-off and boost conversions with ID scanning and verification solutions. 
 Quickly and securely capture, extract, and verify data from diverse ID cards, passports, driver’s licenses, and other documents with our proven, AI-first approach.
 Designed to fit seamlessly together, our technology can be integrated as a fully-bundled identity document verification solution or as separate modules via developer-friendly mobile or server SDK.
 Try it out today!
@@ -38,7 +38,7 @@ Try it out today!
 
 ### Installation Steps
 
-1. **Download the ID Document Recognition Windows Server Installer:**
+1. **Download the ID Document Recognition Linux Server Installer:**
 
    Download the Server installer for your operating system from the following link:
    
