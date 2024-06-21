@@ -50,10 +50,10 @@ Try it out today!
    $ sudo dpkg -i --force-overwrite MiniAiLive-IDSDK-LinuxServer.deb
    ```
 <div align="center">
-   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/5547b656-e5ad-463b-a1b8-4107cdaed556 alt="MiniAiLive Logo" width="300">
-   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/a4cc52ba-ef98-4db1-a0f2-c9878bf0b014 alt="MiniAiLive Logo" width="300">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/a4cc52ba-ef98-4db1-a0f2-c9878bf0b014 alt="MiniAiLive Logo" width="400">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/5547b656-e5ad-463b-a1b8-4107cdaed556 alt="MiniAiLive Logo" width="400">
 </div>
-   You can refer our Documentation [here](https://docs.miniai.live)
+   You can refer our Documentation here. https://docs.miniai.live
 
 3. **Request License and Update:**
 
