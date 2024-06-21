@@ -15,9 +15,7 @@ Try it out today!
 > **Note**
 >
 > - Our SDK is fully on-premise, processing all happens on hosting server and no data leaves server.
->
 > - 10,000+ document templates covering IDs issued in 200+ countries and territories.
->
 > - Support of 100+ languages and special characters via sophisticated neural networks.
 
 ## Table of Contents
@@ -42,14 +40,19 @@ Try it out today!
 
    Download the Server installer for your operating system from the following link:
    
-   [Download the On-premise Server Installer](https://example.com/download-sdk)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/1BRh3EgUAT2W2h9LKtuAeqs_SmHRX3NKe/view?usp=sharing)
 
 2. **Install the On-premise Server:**
 
-   Run the installer and follow the on-screen instructions to complete the installation.
-
-   ![installer](https://github.com/MiniAiLive/ID-DocumentRecognition-Windows/assets/127708602/437907e0-9865-4752-aa46-5c99379d8d82)
-
+   Run the installer and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
+   ```sh
+   $ cd Download
+   $ sudo dpkg -i --force-overwrite MiniAiLive-IDSDK-LinuxServer.deb
+   ```
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/5547b656-e5ad-463b-a1b8-4107cdaed556 alt="MiniAiLive Logo" width="300">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/a4cc52ba-ef98-4db1-a0f2-c9878bf0b014 alt="MiniAiLive Logo" width="300">
+</div>
    You can refer our Documentation [here](https://docs.miniai.live)
 
 3. **Request License and Update:**
