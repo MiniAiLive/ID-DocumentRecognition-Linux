@@ -56,16 +56,30 @@ Try it out today!
 
 3. **Request License and Update:**
 
-   Run MIRequest.exe file for generate license request file. You can find it here.
-   
-   C:\Program Files\MiniAiLive\MiniAiLive-ID-Server
-
-   Open it, generate license request file, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
+   You can generate the License Request file by using this command:
+   ```sh
+   $ cd /opt/miniai/dr-webapi
+   $ sudo ./MiRequest request /home/ubuntu/Download/trial_key.miq
+   ```
+   Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
+   ```sh
+   $ sudo ./MiRequest update /home/ubuntu/Download/trial_30.mis
+   ```
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/e600fd00-895d-48d8-9228-396cd2fc6d98 alt="MiniAiLive Installer">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/7001cbe2-d246-40bf-acab-12786cc2d2e0 alt="MiniAiLive Installer">
+</div>
 
 4. **Verify Installation:**
 
-   After installation, verify that the On-premise Server is correctly installed by checking the task manager:
-   
+   After installation, verify that the On-premise Server is correctly installed by using this command:
+   ```sh
+   $ systemctl list-units --state running
+   ```
+   If you can see 'Mini-drsvc.service', 'Mini-idsvc.service', the server has been installed successfully. Refer the below image.
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/18edc1d1-ddf4-48a7-86c8-eb48e01b4317 alt="MiniAiLive Installer">
+</div>
 
 ## API Details
 
