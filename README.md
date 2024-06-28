@@ -65,6 +65,7 @@ Try it out today!
    <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/7001cbe2-d246-40bf-acab-12786cc2d2e0 alt="MiniAiLive Installer">
 </div>
    Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
+   
    ```sh
    $ sudo ./MiRequest update /home/ubuntu/Download/trial_30.mis
    ```
