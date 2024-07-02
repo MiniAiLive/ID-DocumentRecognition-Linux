@@ -88,15 +88,15 @@ Try it out today!
 
 ### Endpoint
 
-- `POST http://127.0.0.1:8082/id_check` ID Document Recognition API
+- `POST http://127.0.0.1:8082/api/id_check` ID Document Recognition API
 
-- `POST http://127.0.0.1:8082/bank_credit_check` Bank & Credit Card Reader API
+- `POST http://127.0.0.1:8082/api/bank_credit_check` Bank & Credit Card Reader API
 
-- `POST http://127.0.0.1:8082/mrz_barcode_check` MRZ & Barcode Recognition API
+- `POST http://127.0.0.1:8082/api/mrz_barcode_check` MRZ & Barcode Recognition API
 
 ### Request
 
-- **URL:** `http://127.0.0.1:8082/id_check`
+- **URL:** `http://127.0.0.1:8082/api/id_check`
 - **Method:** `POST`
 - **Form Data:**
   - `image`: The image file (PNG, JPG, etc.) to be analyzed. This should be provided as a file upload.
@@ -116,7 +116,7 @@ We have included a Gradio demo to showcase the capabilities of our ID Document R
    First, you need to install Gradio. You can do this using pip:
 
    ```sh
-   git clone https://github.com/MiniAiLive/ID-DocumentRecognition-Windows.git
+   git clone https://github.com/MiniAiLive/ID-DocumentRecognition-Linux-SDK.git
    cd gradio
    pip install -r requirement.txt
    ```
@@ -141,7 +141,7 @@ This example demonstrates how to send an image file to the API endpoint and proc
 import requests
 
 # URL of the web API endpoint
-url = 'http://127.0.0.1:8082/id_check'
+url = 'http://127.0.0.1:8082/api/id_check'
 
 # Path to the image file you want to send
 image_path = './test_image.jpg'
@@ -181,25 +181,29 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Submit a pull request to the original repository.
 ```
 ## Try Online Demo
-Please visit our Face API Web Demo here. https://demo.miniai.live
+Please visit our ID API Web Demo here. https://demo.miniai.live
+<a href="https://demo.miniai.live" target="_blank">
+  <img alt="" src="https://github.com/MiniAiLive/ID-DocumentRecognition-Windows-SDK/assets/127708602/15de62ae-1d5a-408f-9805-60e935da40b4">
+</a>
 
 ## Related Product
 No | Project | Feature
 ---|---|---|
-1 | [MiniAI-Face-Recognition-LivenessDetection-AndroidSDK](https://github.com/MiniAiLive/MiniAI-Face-Recognition-LivenessDetection-AndroidSDK) | Face Matching, 3D Face Passive Liveness
-2 | [MiniAI-Face-Recognition-LivenessDetection-iOS-SDK](https://github.com/MiniAiLive/MiniAI-Face-Recognition-LivenessDetection-iOS-SDK) | Face Matching, 3D Face Passive Liveness
-3 | [MiniAI-Face-Recognition-LivenessDetection-ServerSDK](https://github.com/MiniAiLive/MiniAI-Face-Recognition-LivenessDetection-ServerSDK) | Face Matching, 3D Face Passive Liveness
-4 | [MiniAI-Face-Recognition-LivenessDetection-WindowsSDK](https://github.com/MiniAiLive/MiniAI-Face-Recognition-LivenessDetection-WindowsSDK) | Face Matching, 3D Face Passive Liveness
-5 | [MiniAI-Face-LivenessDetection-AndroidSDK](https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-AndroidSDK) | 3D Face Passive Liveness
-6 | [MiniAI-Face-LivenessDetection-iOS-SDK](https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-iOS-SDK) | 3D Face Passive Liveness
-7 | [MiniAI-Face-LivenessDetection-ServerSDK](https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-ServerSDK) | 3D Face Passive Liveness
-8 | [MiniAI-Face-Matching-AndroidSDK](https://github.com/MiniAiLive/MiniAI-Face-Matching-AndroidSDK) | 1:1 Face Matching
-9 | [MiniAI-Face-Matching-iOS-SDK](https://github.com/MiniAiLive/MiniAI-Face-Matching-iOS-SDK) | 1:1 Face Matching
-10 | [MiniAI-Face-Attributes-AndroidSDK](https://github.com/MiniAiLive/MiniAI-Face-Attributes-AndroidSDK) | Face Attributes
-11 | [ID-DocumentRecognition-Android-SDK](https://github.com/MiniAiLive/MiniAI-IDCardRecognition-Android-SDK) | ID Document, Bank Card, Barcode Recognition
-12 | [ID-DocumentRecognition-iOS-SDK](https://github.com/MiniAiLive/MiniAI-IDCardRecognition-iOS-SDK) | ID Document, Bank Card, Barcode Recognition
-13 | [ID-DocumentRecognition-Windows](https://github.com/MiniAiLive/ID-DocumentRecognition-Windows) | ID Document, Bank Card, Barcode Recognition
-14 | [ID-DocumentRecognition-Linux](https://github.com/MiniAiLive/ID-DocumentRecognition-Linux) | ID Document, Bank Card, Barcode Recognition
+1 | [FaceRecognition-LivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Android-SDK) | Face Matching, 3D Face Passive Liveness
+2 | [FaceRecognition-LivenessDetection-iOS-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-iOS-SDK) | Face Matching, 3D Face Passive Liveness
+3 | [FaceRecognition-LivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Linux-SDK) | Face Matching, 3D Face Passive Liveness
+4 | [FaceRecognition-LivenessDetection-Windows-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Windows-SDK) | Face Matching, 3D Face Passive Liveness
+5 | [FaceLivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Android-SDK) | 3D Face Passive Liveness
+6 | [FaceLivenessDetection-iOS-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-iOS-SDK) | 3D Face Passive Liveness
+7 | [FaceLivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK) | 3D Face Passive Liveness
+8 | [FaceMatching-Android-SDK](https://github.com/MiniAiLive/FaceMatching-Android-SDK) | 1:1 Face Matching
+9 | [FaceMatching-iOS-SDK](https://github.com/MiniAiLive/FaceMatching-iOS-SDK) | 1:1 Face Matching
+10 | [FaceRecognition-Windows-Demo](https://github.com/MiniAiLive/FaceRecognition-Windows-Demo) | 1:1 Face Matching
+11 | [FaceAttributes-Android-SDK](https://github.com/MiniAiLive/FaceAttributes-Android-SDK) | Face Attributes
+12 | [ID-DocumentRecognition-Android-SDK](https://github.com/MiniAiLive/ID-DocumentRecognition-Android-SDK) | ID Document, Credit, MRZ Recognition
+13 | [ID-DocumentRecognition-iOS-SDK](https://github.com/MiniAiLive/ID-DocumentRecognition-iOS-SDK) | ID Document, Credit, MRZ Recognition
+14 | [ID-DocumentRecognition-Linux-SDK](https://github.com/MiniAiLive/ID-DocumentRecognition-Linux-SDK) | ID Document, Credit, MRZ Recognition
+15 | [ID-DocumentRecognition-Windows-SDK](https://github.com/MiniAiLive/ID-DocumentRecognition-Windows-SDK) | ID Document, Credit, MRZ Recognition
 
 ## About MiniAiLive
 [MiniAiLive](https://www.miniai.live/) is a leading AI solutions company specializing in computer vision and machine learning technologies. We provide cutting-edge solutions for various industries, leveraging the power of AI to drive innovation and efficiency.
