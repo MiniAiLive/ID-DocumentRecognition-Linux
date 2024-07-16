@@ -117,7 +117,10 @@ Try it out today!
 ### Response
 
 The API returns a JSON object with the recognized details from the ID document. Here is an example response:
-
+   <div align="center">
+      <img src="https://github.com/MiniAiLive/ID-DocumentRecognition-Windows/assets/127708602/c515e8b3-691c-4bf2-b8f7-4d33df676dec" />
+   </div>
+   
 ## Gradio Demo
 
 We have included a Gradio demo to showcase the capabilities of our ID Document Recognition SDK. Gradio is a Python library that allows you to quickly create user interfaces for machine learning models.
