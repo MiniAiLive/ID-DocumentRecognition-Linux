@@ -89,10 +89,13 @@ Try it out today!
 ### Endpoint
 
 - `POST http://127.0.0.1:8082/api/id_check` ID Document Recognition API
-
+  `POST http://127.0.0.1:8082/api/id_check_base64` ID Document Recognition API
+  
 - `POST http://127.0.0.1:8082/api/bank_credit_check` Bank & Credit Card Reader API
-
+  `POST http://127.0.0.1:8082/api/bank_credit_check_base64` Bank & Credit Card Reader API
+  
 - `POST http://127.0.0.1:8082/api/mrz_barcode_check` MRZ & Barcode Recognition API
+  `POST http://127.0.0.1:8082/api/mrz_barcode_check_base64` MRZ & Barcode Recognition API
 
 ### Request
 
@@ -100,6 +103,14 @@ Try it out today!
 - **Method:** `POST`
 - **Form Data:**
   - `image`: The image file (PNG, JPG, etc.) to be analyzed. This should be provided as a file upload.
+
+- **URL:** `http://127.0.0.1:8082/api/id_check_base64`
+- **Method:** `POST`
+- **Raw Data:**
+  - `JSON Format`:
+    {
+       "image": "--base64 image data here--"
+    }
 
 ### Response
 
