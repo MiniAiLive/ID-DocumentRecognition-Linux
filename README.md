@@ -103,6 +103,7 @@ Try it out today!
 - **Method:** `POST`
 - **Form Data:**
   - `image`: The image file (PNG, JPG, etc.) to be analyzed. This should be provided as a file upload.
+<img width="1049" alt="Screenshot 2024-07-16 at 5 12 01 AM" src="https://github.com/user-attachments/assets/9d869c94-1d78-46e4-a076-2c24051c0d3d">
 
 - **URL:** `http://127.0.0.1:8082/api/id_check_base64`
 - **Method:** `POST`
@@ -111,6 +112,7 @@ Try it out today!
     {
        "image": "--base64 image data here--"
     }
+<img width="1049" alt="Screenshot 2024-07-16 at 5 11 34 AM" src="https://github.com/user-attachments/assets/e9adf6b9-9cf7-4192-aae5-f48cb2f3535f">
 
 ### Response
 
