@@ -7,10 +7,7 @@
 ## Welcome to the [MiniAiLive](https://www.miniai.live/)!
 Welcome to the ID Document Recognition SDK! This SDK provides powerful tools for recognizing and extracting information from ID documents. The SDK is available for both Windows and Linux platforms and includes an API for integration.
 
-Introducing our ID Document Recognition Linux SDK. Reduce drop-off and boost conversions with ID scanning and verification solutions. 
-Quickly and securely capture, extract, and verify data from diverse ID cards, passports, driver’s licenses, and other documents with our proven, AI-first approach.
-Designed to fit seamlessly together, our technology can be integrated as a fully-bundled identity document verification solution or as separate modules via developer-friendly mobile or server SDK.
-Try it out today!
+Reduce drop-off and boost conversions with ID scanning and verification solutions. Quickly and securely capture, extract, and verify data from diverse ID cards, passports, driver’s licenses, and other documents with our proven, AI-first approach. Designed to fit seamlessly together, our technology can be integrated as a fully-bundled identity document verification solution or as separate modules via developer-friendly mobile or server SDK. Try it out today!
 
 > **Note**
 >
@@ -30,7 +27,7 @@ Try it out today!
 ### Prerequisites
 
 - Python 3.6+
-- Windows
+- Linux
 - CPU: 2cores or more
 - RAM: 4GB or more
 
