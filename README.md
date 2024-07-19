@@ -88,24 +88,24 @@ Try it out today!
 
 ### Endpoint
 
-- `POST http://127.0.0.1:8082/api/id_check` ID Document Recognition API
-- `POST http://127.0.0.1:8082/api/id_check_base64` ID Document Recognition API
+- `POST http://127.0.0.1:8082/api/check_id` ID Document Recognition API
+- `POST http://127.0.0.1:8082/api/check_id_base64` ID Document Recognition API
   
-- `POST http://127.0.0.1:8082/api/bank_credit_check` Bank & Credit Card Reader API
-- `POST http://127.0.0.1:8082/api/bank_credit_check_base64` Bank & Credit Card Reader API
+- `POST http://127.0.0.1:8082/api/check_credit` Bank & Credit Card Reader API
+- `POST http://127.0.0.1:8082/api/check_credit_base64` Bank & Credit Card Reader API
   
-- `POST http://127.0.0.1:8082/api/mrz_barcode_check` MRZ & Barcode Recognition API
-- `POST http://127.0.0.1:8082/api/mrz_barcode_check_base64` MRZ & Barcode Recognition API
+- `POST http://127.0.0.1:8082/api/check_mrz` MRZ & Barcode Recognition API
+- `POST http://127.0.0.1:8082/api/check_mrz_base64` MRZ & Barcode Recognition API
 
 ### Request
 
-- **URL:** `http://127.0.0.1:8082/api/id_check`
+- **URL:** `http://127.0.0.1:8082/api/check_id`
 - **Method:** `POST`
 - **Form Data:**
   - `image`: The image file (PNG, JPG, etc.) to be analyzed. This should be provided as a file upload.
 <img width="1049" alt="Screenshot 2024-07-16 at 5 12 01 AM" src="https://github.com/user-attachments/assets/9d869c94-1d78-46e4-a076-2c24051c0d3d">
 
-- **URL:** `http://127.0.0.1:8082/api/id_check_base64`
+- **URL:** `http://127.0.0.1:8082/api/check_id_base64`
 - **Method:** `POST`
 - **Raw Data:**
   - `JSON Format`:
@@ -157,7 +157,7 @@ This example demonstrates how to send an image file to the API endpoint and proc
 import requests
 
 # URL of the web API endpoint
-url = 'http://127.0.0.1:8082/api/id_check'
+url = 'http://127.0.0.1:8082/api/check_id'
 
 # Path to the image file you want to send
 image_path = './test_image.jpg'
