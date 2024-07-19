@@ -103,7 +103,7 @@ Try it out today!
 - **Method:** `POST`
 - **Form Data:**
   - `image`: The image file (PNG, JPG, etc.) to be analyzed. This should be provided as a file upload.
-<img width="1049" alt="Screenshot 2024-07-16 at 5 12 01 AM" src="https://github.com/user-attachments/assets/9d869c94-1d78-46e4-a076-2c24051c0d3d">
+<img width="1049" alt="Screenshot 2024-07-16 at 5 12 01 AM" src="https://github.com/user-attachments/assets/fa954d58-d623-4db3-8a65-1df2d5c28baf">
 
 - **URL:** `http://127.0.0.1:8082/api/check_id_base64`
 - **Method:** `POST`
@@ -112,15 +112,15 @@ Try it out today!
     {
        "image": "--base64 image data here--"
     }
-<img width="1049" alt="Screenshot 2024-07-16 at 5 11 34 AM" src="https://github.com/user-attachments/assets/e9adf6b9-9cf7-4192-aae5-f48cb2f3535f">
+<img width="1049" alt="Screenshot 2024-07-16 at 5 11 34 AM" src="https://github.com/user-attachments/assets/fa6f5e12-0abc-4e5f-a078-f541e3c546a7">
 
 ### Response
 
 The API returns a JSON object with the recognized details from the ID document. Here is an example response:
    <div align="center">
-      <img src="https://github.com/MiniAiLive/ID-DocumentRecognition-Windows/assets/127708602/c515e8b3-691c-4bf2-b8f7-4d33df676dec" />
+      <img src="https://github.com/user-attachments/assets/fa954d58-d623-4db3-8a65-1df2d5c28baf" />
    </div>
-   
+
 ## Gradio Demo
 
 We have included a Gradio demo to showcase the capabilities of our ID Document Recognition SDK. Gradio is a Python library that allows you to quickly create user interfaces for machine learning models.
