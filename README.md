@@ -40,7 +40,7 @@ Try it out today!
 
    Download the Server installer for your operating system from the following link:
    
-   [Download the On-premise Server Installer](https://drive.google.com/file/d/1kexLrWD9pJ-PwOEOgo4Wyaj7RIr7E_ZW/view?usp=sharing)
+   [Download the On-premise Server Installer](https://drive.google.com/file/d/11J6f0z49U-jqpU6gl-Ij4QN__8aY6R6p/view?usp=sharing)
 
 2. **Install the On-premise Server:**
 
@@ -133,8 +133,8 @@ We have included a Gradio demo to showcase the capabilities of our ID Document R
 
    ```sh
    git clone https://github.com/MiniAiLive/ID-DocumentRecognition-Linux-SDK.git
-   cd gradio
    pip install -r requirement.txt
+   cd gradio
    ```
 2. **Run Gradio Demo:**
    ```sh
