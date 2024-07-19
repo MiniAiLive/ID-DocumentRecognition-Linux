@@ -142,7 +142,7 @@ We have included a Gradio demo to showcase the capabilities of our ID Document R
    ```
 ## Python Test API Example
 
-To help you get started with using the API, here is a comprehensive example of how to interact with the ID Document Recognition API using Python. You can use API with other language you want to use like C++, C#, Ruby, Java, Javascript and more
+To help you get started with using the API, here is a comprehensive example of how to interact with the ID Document Recognition API using Python. You can use API with another language you want to use like C++, C#, Ruby, Java, Javascript, and more
 
 ### Prerequisites
 
