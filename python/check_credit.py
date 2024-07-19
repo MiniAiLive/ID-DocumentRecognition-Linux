@@ -1,7 +1,7 @@
 import requests
 
 # URL of the API endpoint
-url = 'http://127.0.0.1:8082/api/bank_credit_check'
+url = 'http://127.0.0.1:8082/api/check_credit'
 
 # Path to the image file you want to send
 image_path = './test_image/bank_card_image.png'

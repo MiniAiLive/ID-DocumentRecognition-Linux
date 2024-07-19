@@ -3,7 +3,7 @@ import os
 import requests
 
 def id_check(frame):
-    url = "http://127.0.0.1:8082/api/id_check"
+    url = "http://127.0.0.1:8082/api/check_id"
     files = {'image': open(frame, 'rb')}
     r = requests.post(url=url, files=files)
 
@@ -77,7 +77,7 @@ def id_check(frame):
     return [html, images]
 
 def bank_credit_check(frame):
-    url = 'http://127.0.0.1:8082/api/bank_credit_check'
+    url = 'http://127.0.0.1:8082/api/check_credit'
     files = {'image': open(frame, 'rb')}
     r = requests.post(url=url, files=files)
 
@@ -105,7 +105,7 @@ def bank_credit_check(frame):
     return html
 
 def mrz_barcode_check(frame):
-    url = 'http://127.0.0.1:8082/api/mrz_barcode_check'
+    url = 'http://127.0.0.1:8082/api/check_mrz'
     files = {'image': open(frame, 'rb')}
     r = requests.post(url=url, files=files)
 

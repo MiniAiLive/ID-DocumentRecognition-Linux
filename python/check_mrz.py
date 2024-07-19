@@ -1,7 +1,7 @@
 import requests
 
 # URL of the API endpoint
-url = 'http://127.0.0.1:8082/api/mrz_barcode_check'
+url = 'http://127.0.0.1:8082/api/check_mrz'
 
 # Path to the image file you want to send
 image_path = './test_image/mrz_image.png'
