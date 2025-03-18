@@ -184,15 +184,6 @@ except requests.exceptions.RequestException as e:
 ## Request license
 Feel free to [Contact US](https://www.miniai.live/contact/)  to get a trial License. We are 24/7 online on [WhatsApp](https://wa.me/+19162702374).
 
-## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-```java 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the original repository.
-```
 
 ## Face & IDSDK Online Demo, Resources
 <div style="display: flex; justify-content: center; align-items: center;"> 
